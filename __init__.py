@@ -1,6 +1,6 @@
-from aqt.qt import QFontDatabase
-from aqt import gui_hooks
 import random
+from aqt import gui_hooks
+from aqt.qt import QFontDatabase
 
 def prepare(html, card, context):
     qf = QFontDatabase()
