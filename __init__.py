@@ -2,7 +2,6 @@ from aqt.qt import QFontDatabase
 from aqt import gui_hooks
 import random
 
-from aqt import gui_hooks
 def prepare(html, card, context):
     qf = QFontDatabase()
     thefont = random.choice(qf.families(QFontDatabase.Japanese))
